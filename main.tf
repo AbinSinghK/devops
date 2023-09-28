@@ -7,8 +7,6 @@ resource "aws_instance" "abins_instance" {
   instance_type = "t2.micro"              # Specify your desired instance type
   key_name      = "mumbai"    # Specify your key pair name
 
-  subnet_id     = "subnet-xxxxxxxxxxxxxx" # Specify your desired subnet ID
-
   security_groups = ["all"] # Specify your security group(s) by name
 }
 
